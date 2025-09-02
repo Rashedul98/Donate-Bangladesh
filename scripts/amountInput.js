@@ -1,4 +1,4 @@
-function donationAmountInput(id, specific) {
+function donationAmountInput(id, specific,tagName) {
 
     // take input amount and parse it
     const amountValue = document.getElementById(id).value;
@@ -36,7 +36,8 @@ function donationAmountInput(id, specific) {
 
         document.getElementById('show-donated-amount').innerText = total;
 
-        
+        // History
+        showHistory(parsedAmount,tagName)
 
     }
 
