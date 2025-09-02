@@ -36,6 +36,8 @@ function donationAmountInput(id, specific) {
 
         document.getElementById('show-donated-amount').innerText = total;
 
+        
+
     }
 
     // Clear input fields
