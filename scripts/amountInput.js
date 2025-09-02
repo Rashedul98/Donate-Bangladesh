@@ -11,8 +11,7 @@ function donationAmountInput(id, specific) {
         return;
 
     } else {
-
-
+        alert("Congratulations!!!");
         // take donated amount
         const showDonatedAmount = document.getElementById('show-donated-amount').innerText;
         const ParsedShowDonatedAmount = parseFloat(showDonatedAmount);
