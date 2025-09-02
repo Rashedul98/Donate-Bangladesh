@@ -27,6 +27,8 @@ function donationAmountInput(id, specific) {
 
         // total amount
         const total = parsedAmount + ParsedShowDonatedAmount;
+        // const total = ParsedShowDonatedAmount - parsedAmount;
+
 
         // Add updated donated amount and remove "Donate Now text"
         document.getElementById('show-donated-amount').classList.remove('hidden');
