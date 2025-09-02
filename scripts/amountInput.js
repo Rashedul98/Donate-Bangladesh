@@ -7,7 +7,7 @@ function donationAmountInput(id, specific) {
 
     if (isNaN(parsedAmount)) {
 
-        alert("please add numbers onyl");
+        alert("please input numbers only");
         return;
 
     } else {
