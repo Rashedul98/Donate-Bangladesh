@@ -8,3 +8,4 @@ document.getElementById('History-btn').addEventListener('click', function () {
     document.getElementById('History-page').classList.remove('hidden');
 })
 
+

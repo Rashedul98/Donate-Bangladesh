@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate Bangladesh</title>
+    <style>
+        .button-effect-hover:hover {
+            box-shadow: 0 0 10px 5px rgb(0 0 0 / 20%);
+        }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 
 <body>
@@ -36,7 +42,7 @@
             <!-- Donation & History Button -->
             <div class="flex justify-center gap-4">
                 <button id="Donation-btn"
-                    class="px-8 py-3 rounded-lg bg-[#B4F461] font-semibold text-xl">Donation</button>
+                    class="px-8 py-3 rounded-lg bg-[#1111114D]  font-semibold text-xl">Donation</button>
                 <button id="History-btn"
                     class="px-8 py-3 rounded-lg bg-[#1111114D] font-semibold text-xl">History</button>
             </div>
@@ -151,11 +157,13 @@
         </div>
     </main>
     <footer></footer>
+    <script src="/scripts/buttonEeffects.js"></script>
     <script src="/scripts/nav.js"></script>
     <script src="/scripts/amountInput.js"></script>
     <script src="/scripts/donationAmount.js"></script>
     <script src="/scripts/buttons.js"></script>
     <script src="/scripts/history.js"></script>
+    <!-- <script src="/scripts/buttonEeffects.js"></script> -->
 </body>
 
 </html>
