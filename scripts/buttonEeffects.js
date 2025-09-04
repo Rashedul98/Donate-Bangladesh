@@ -3,7 +3,6 @@ document.getElementById('Donation-btn').addEventListener('mouseover', function (
 
     document.getElementById('History-btn').classList.remove('bg-[#B4F461]');
     document.getElementById('History-btn').classList.remove('button-effect-hover');
-
     this.classList.add('bg-[#B4F461]');
     this.classList.add('button-effect-hover');
 
@@ -13,7 +12,7 @@ document.getElementById('Donation-btn').addEventListener('mouseout', function (e
 
     document.getElementById('Donation-btn').classList.remove('bg-[#B4F461]');
     document.getElementById('Donation-btn').classList.remove('button-effect-hover');
-
+    this.style.transition = '0.5s ease-in-out'
 })
 
 // History Button - hover effects
@@ -29,9 +28,10 @@ document.getElementById('History-btn').addEventListener('mouseover', function (e
 
 })
 
-document.getElementById('Donation-btn').addEventListener('mouseout', function (event) {
+document.getElementById('History-btn').addEventListener('mouseout', function (event) {
 
     document.getElementById('History-btn').classList.remove('bg-[#B4F461]');
     document.getElementById('History-btn').classList.remove('button-effect-hover');
+    this.style.transition = '0.5s ease-in-out'
 
 })
